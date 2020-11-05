@@ -128,7 +128,7 @@ div11 = Div(text="""
 """)
 div12 = Div(text="""
     Last update: {}
-""".format(confirm['date'].max()))
+""".format(ds['date'].max()))
 
 plot2 = figure(plot_height=600, plot_width=1200, x_range=races, \
     tools="", toolbar_location=None, title="Covid-19 Cases by Races", \
